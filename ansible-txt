@@ -19,4 +19,14 @@ second python is used for creating ansible so it is easu to under stand and lear
 thrid we are using ssh password less so it is veru secure which is not using puppet and chef
 fourth we can say ansible used Push articture when we write some code in our system we ahve to push it on other nodes and setup of ansible is also easy
 
+push mean you chage in the master and the changes goes to agents
+
+4 than what is push arc-- pull based is actually when your agent make a call to the master to chcek whether my master has done anything or ask him then synk me also every 5 secs
+
+fifth is there is inventory in ansible
+
+5 Have you evere used modules in ansible can you just explain?
+
+
+
 

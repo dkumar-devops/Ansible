@@ -1,0 +1,22 @@
+I am also working with configration mangment tool Ansible.
+1. what do you understand by configuration Managment?
+Configuration managment comes in picture, before we do everything manually there be a change to to manual error and the number of server increasing day by day so we have to
+go to everyserver and done it manully, to overcome to that problem we starting to use confiratin mgmt tool. Suppose we to send some updates and rollbacks and we founds some bugs 
+so we can not go everywhere and do that chages. in this we do ssh from 1 server changes there it will automatilly apply /deploy on the other servers also so this practice is called 
+configuratin managment.
+2. You are doing this confiration managemebt manully or from CI/CD?
+
+Ans - throgh CI/CD
+
+2. What do you understand by CI CD
+In Ci we stream line the development and deployment process. once the continuos integratin is done and we have to push to remote rpository in production which is called the 
+CD.
+
+3. As we already know that there are multiple tools avavilebe in the market like Chef , puppet , salt stake why did you guys choose ansible over it ?
+There are so many reason to choose Ansibel-- One of the most important reason is it is Agentless, in puppet or chef you have to istalled software or agent to manage the nodes but
+in ansible it not.
+second python is used for creating ansible so it is easu to under stand and learn
+thrid we are using ssh password less so it is veru secure which is not using puppet and chef
+fourth we can say ansible used Push articture when we write some code in our system we ahve to push it on other nodes and setup of ansible is also easy
+
+

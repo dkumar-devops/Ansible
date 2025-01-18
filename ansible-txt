@@ -30,7 +30,40 @@ Ansibel modues are basilly like funsction or written some of the task or stand  
 which task to be performed , so master node have a set of task for slave nodes which has to be performed  so the way in which any task
 is written called ansible modules. Two types are modules core module and extra modules. so whenever we set up ansibles node that core
 module will automatcally come, extra modeul as name suggests these are extra availabe in module if you need some timt use this extra
-module.
+module. Core module is always a priority when there is a bug .
+
+6. Invetory types can you tell me about?
+As i told inventory is basically a yaml file which are writtem for Ip values of slave nodes
+ there are 2 tyesp static and dynamic inventory
+in static inventoru file we ahve staic IPs for slave and in dynamc inventory genrated by script  ip get chages like cloud or somthing
+
+7 who writes this scripts for dynamic inventry
+Plugins are available
+
+8 can you tell me actual working of Ansible how it works?
+9 Do you have practicle expertice of ansible valt.
+10 do u used ansible tower in your project and u tell me the feature why i should used it?
+11 consider a scnario you have multiple file with you and you want to copy all ther files to a tagget groups?How do you do it? 
+This module is part of ansible-core and included in all Ansible installations. In most cases, you can use the short module name
+copy even without specifying the collections keyword
+
+
+- name: Another symbolic mode example, adding some permissions and removing others
+  ansible.builtin.copy:
+    src: /srv/myfiles/foo.conf
+    dest: /etc/foo.conf
+    owner: foo
+    group: foo
+    mode: u+rw,g-wx,o-rwx
+
+12 How do u use ansibel to use decryipted filess
+ansible vault incryt
+ansible decypt
+
+13 write a script
+
+
+
 
 
 

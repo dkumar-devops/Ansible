@@ -26,6 +26,13 @@ push mean you chage in the master and the changes goes to agents
 fifth is there is inventory in ansible
 
 5 Have you evere used modules in ansible can you just explain?
+Ansibel modues are basilly like funsction or written some of the task or stand  alone scripts where we have written some of the tasks
+which task to be performed , so master node have a set of task for slave nodes which has to be performed  so the way in which any task
+is written called ansible modules. Two types are modules core module and extra modules. so whenever we set up ansibles node that core
+module will automatcally come, extra modeul as name suggests these are extra availabe in module if you need some timt use this extra
+module.
+
+
 
 
 

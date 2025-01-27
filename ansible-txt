@@ -158,6 +158,19 @@ Executes modules to apply tasks.
 Collects results and displays them on the control node.
 
 
+#Question asked in interview
+
+1. wht is ansible and how it works 
+2. waht is ansible galaxy 
+3 what is roles
+4. what is github conflict
+5. How we do parallel execution in ansible
+6. Write a playbook
+
+
+
+
+
 
 
 
